@@ -2,6 +2,7 @@
 Authorship Recognition using Naive Bayes
 
 This program learns authors from raw data and predicts authors of documents. It is implemented in Python language.
+Moreover, snowball turkish stemming library is used. In order to deactive it please change the constant value in top of identify_author.py.
 
 In order to generate training and test files from raw files, first run build.py with python using directory arguments:
 python build.py -data RAW_TEXT_DIRECTORY -training TRAINING_DATA_DIRECTORY -test TEST_DATA DIRECTORY
