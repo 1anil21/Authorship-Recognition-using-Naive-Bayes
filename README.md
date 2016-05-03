@@ -5,13 +5,17 @@ This program learns authors from raw data and predicts authors of documents. It 
 Moreover, snowball turkish stemming library is used. In order to deactive it please change the constant value in top of identify_author.py.
 
 In order to generate training and test files from raw files, first run build.py with python using directory arguments:
-python build.py -data RAW_TEXT_DIRECTORY -training TRAINING_DATA_DIRECTORY -test TEST_DATA DIRECTORY
+
+    python build.py -data RAW_TEXT_DIRECTORY -training TRAINING_DATA_DIRECTORY -test TEST_DATA DIRECTORY
 
 For example:
-python build.py -data C:/authorship_recognition/raw_texts -training C:/authorship_recognition/training -test C:/authorship_recognition/test
+
+    python build.py -data C:/authorship_recognition/raw_texts -training C:/authorship_recognition/training -test C:/authorship_recognition/test
 
 In order to run recognition system, run identify_author.py with python using directory arguments:
-python identify_author.py -training TRAINING_DATA_DIRECTORY -test TEST_DATA
+
+    python identify_author.py -training TRAINING_DATA_DIRECTORY -test TEST_DATA
 
 For example:
-python identify_author.py -training C:/authorship_recognition/training -test C:/authorship_recognition/test
+
+    python identify_author.py -training C:/authorship_recognition/training -test C:/authorship_recognition/test
