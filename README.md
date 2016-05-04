@@ -6,7 +6,7 @@ Moreover, snowball turkish stemming library is used. In order to deactive it ple
 
 In order to generate training and test files from raw files, first run build.py with python using directory arguments:
 +
-+  python build.py -data RAW_TEXT_DIRECTORY -training TRAINING_DATA_DIRECTORY -test TEST_DATA DIRECTORY
++   python build.py -data RAW_TEXT_DIRECTORY -training TRAINING_DATA_DIRECTORY -test TEST_DATA DIRECTORY
 
 For example:
 +
