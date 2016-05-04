@@ -1,3 +1,4 @@
+from __future__ import unicode_literals
 import argparse, os, re, sys, operator, math
 import snowballstemmer
 
