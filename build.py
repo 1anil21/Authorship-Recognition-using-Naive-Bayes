@@ -1,4 +1,4 @@
-import argparse, os, random
+import argparse, os, random, shutil
 from shutil import copyfile
 
 # Randomly 60% of dataset will be training set
@@ -17,6 +17,12 @@ if __name__ == "__main__":
         exit()
     
     # Create training and test directories
+    # If they exist remove first
+    if (os.path.isdir(opts.training)):
+        shutil.rmtree(opts.training)
+    if (os.path.isdir(opts.test)):
+        shutil.rmtree(opts.test)
+    
     os.mkdir(opts.training)
     os.mkdir(opts.test)
 
