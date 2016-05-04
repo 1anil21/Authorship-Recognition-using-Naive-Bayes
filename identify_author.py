@@ -1,4 +1,6 @@
-from __future__ import unicode_literals
+#!/usr/bin/python
+# -*- coding: iso-8859-9 -*-
+
 import argparse, os, re, sys, operator, math
 import snowballstemmer
 
