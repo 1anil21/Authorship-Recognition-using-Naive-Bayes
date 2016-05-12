@@ -10,7 +10,7 @@ In order to generate training and test files from raw files, first run build.py 
 
 For example:
 
-    python build.py -data C:/authorship_recognition/raw_texts -training C:/authorship_recognition/training -test C:/authorship_recognition/test
+    python build.py -data C:/69yazar/raw_texts -training C:/69yazar/training -test C:/69yazar/test
 
 In order to run recognition system, run identify_author.py with python using directory arguments:
 
@@ -18,4 +18,4 @@ In order to run recognition system, run identify_author.py with python using dir
 
 For example:
 
-    python identify_author.py -training C:/authorship_recognition/training -test C:/authorship_recognition/test
+    python identify_author.py -training C:/69yazar/training -test C:/69yazar/test
