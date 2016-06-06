@@ -9,4 +9,4 @@ In order to execute program:
 
     python rel_extract.py
 
-Give sentences with "dataset.sentences" and labels with "dataset.labels" files.
+Give sentences with "dataset.sentences" and labels with "dataset.labels" files in the same directory with the script.
